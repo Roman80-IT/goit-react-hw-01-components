@@ -1,9 +1,10 @@
 import { Profile } from './Profile/Profile';
 import user from '../data/user.json';
+import css from './assets/Layout.module.css';
 
 export const App = () => {
   return (
-    <div>
+    <div className={css.layout}>
       <Profile
         username={user.username}
         tag={user.tag}
