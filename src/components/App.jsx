@@ -1,6 +1,6 @@
 import { Profile } from './Profile/Profile';
 import user from '../data/user.json';
-import css from './assets/Layout.module.css';
+import css from './styles/Layout.module.css';
 
 export const App = () => {
   return (

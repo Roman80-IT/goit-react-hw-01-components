@@ -17,7 +17,8 @@ code {
 body {
   font-family: sans-serif;
   line-height: 1.5;
-  background-color: #e4e6e8;
+  /* background-color: #e4e6e8; */
+  background: linear-gradient(to bottom, #eb8736, #e7ee8e);
 }
 
 h1,
