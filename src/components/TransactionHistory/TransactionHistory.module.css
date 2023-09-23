@@ -1,0 +1,38 @@
+.transaction-history {
+  width: 600px;
+  border-spacing: 0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+thead {
+  height: 50px;
+}
+
+th {
+  padding: 10px 50px;
+  text-transform: uppercase;
+  background-color: #38b5c1;
+  color: white;
+  border: 1px solid #ddd;
+}
+
+tbody {
+  text-align: center;
+  color: gray;
+}
+
+tr {
+  height: 45px;
+
+  &:nth-child(2n) {
+    background-color: #ebf0f0;
+  }
+
+  &:nth-child(2n + 1) {
+    background-color: white;
+  }
+}
+
+td {
+  border: 1px solid #ddd;
+}
